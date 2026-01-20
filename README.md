@@ -11,7 +11,7 @@ Download the `skills/recursive-init` into your skills (`<project-root>/skills/re
 OR
 
 ```bash
-npx skills add antonio-ivanovski/recursive-init-skill --skill "recursive-init"
+npx skills add antonio-ivanovski/agents-recursive-init --skill "recursive-init"
 ```
 
 ## Usage
