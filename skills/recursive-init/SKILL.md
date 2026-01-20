@@ -2,7 +2,6 @@
 name: recursive-init
 description: Initialize/update AGENTS.md for all first-level packages within the provided directory.
 agent: general
-compatibility: opencode
 ---
 
 ## What I do
