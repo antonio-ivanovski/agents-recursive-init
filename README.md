@@ -1,6 +1,6 @@
 # Recursive Init AGENTS.md
 
-A small skill that **recursively initializes/updates `AGENTS.md`** for every *first-level* package directory inside a provided folder.
+A small skill that **recursively initializes/updates `AGENTS.md`** for every *first-level* package directory inside a provided folder. **Well-suited for monorepos** with many packages.
 
 It’s designed for agent/LLM workflows: it scans each package briefly (purpose, structure, nuances) and writes a concise `AGENTS.md` that helps future agents and developers work effectively in that package.
 
@@ -82,5 +82,5 @@ It avoids duplicating root docs, avoids dependency lists, and skips fluff.
 - Agent Skills: https://agentskills.io/
 - OpenCode Documentation: https://docs.opencode.com/
 - OpenCode Init Template: https://github.com/anomalyco/opencode/blob/dev/packages/opencode/src/command/template/initialize.txt
-- @mattpocock Guide To AGENTS.md: https://www.aihero.dev/a-complete-guide-to-agents-md
+- [@mattpocock](https://github.com/mattpocock) Guide To AGENTS.md: https://www.aihero.dev/a-complete-guide-to-agents-md
 - ClaudeCode Skills Guide: https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
